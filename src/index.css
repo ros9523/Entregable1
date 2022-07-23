@@ -1,0 +1,55 @@
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 1em;
+    
+}
+
+body{
+    margin: 0;
+}
+
+
+.quotesUsers{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    align-items: center;
+    border: solid 1px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+    padding: 1em;
+   
+}
+
+.quotesicon{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+button{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    font-size: 40px;
+    box-shadow: 0 0 10px black;
+    transition: box-shadow 300ms;
+    background-color: yellow;
+
+}
+
+button:hover{
+    box-shadow: 0 0 5px black;
+     transition: box-shadow 300ms; 
+}
+
+.bxs-quote-alt-left{
+    font-size: 110px;
+}
